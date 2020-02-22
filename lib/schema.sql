@@ -22,4 +22,14 @@ CREATE TABLE books (
   series_id INTEGER
 );
 
+CREATE TABLE subgenres (
+  id INTEGER PRIMARY KEY
+  name TEXT,
+  motto TEXT,
+  author_id
+);
 
+CREATE TABLE books (
+  id INTEGER PRIMARY KEY
+  name TEXT,
+);
