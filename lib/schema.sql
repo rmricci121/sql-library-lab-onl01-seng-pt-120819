@@ -29,7 +29,7 @@ CREATE TABLE subgenres (
   author_id
 );
 
-CREATE TABLE books (
+CREATE TABLE character_books (
   id INTEGER PRIMARY KEY
   name TEXT,
 );
