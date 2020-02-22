@@ -1,3 +1,3 @@
 UPDATE Character
-SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
-WHERE CustomerID = 1;
+SET species = 'martian'
+WHERE character.id = 4;
